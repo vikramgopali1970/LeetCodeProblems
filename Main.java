@@ -24,5 +24,16 @@ public class Main {
          */
 //        CombinationSum cSum = new CombinationSum();
 //        System.out.println(cSum.execAlgo(new int[]{1,2,4,6},10));
+
+        /**
+         * Symmetric Tree from the explore problems
+         */
+//        SymmetricTree tree = new SymmetricTree();
+
+        /**
+         * Kth smallest Element in BST #230 :: Medium
+         */
+//        kSmallestBST tree = new kSmallestBST();
+
     }
 }
