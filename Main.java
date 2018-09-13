@@ -26,14 +26,18 @@ public class Main {
 //        System.out.println(cSum.execAlgo(new int[]{1,2,4,6},10));
 
         /**
-         * Symmetric Tree from the explore problems
+         * Symmetric Tree :: Explore problems
          */
-//        SymmetricTree tree = new SymmetricTree();
+//        SymmetricTree sTree = new SymmetricTree();
 
         /**
          * Kth smallest Element in BST #230 :: Medium
          */
-//        kSmallestBST tree = new kSmallestBST();
+//        kSmallestBST kTree = new kSmallestBST();
 
+        /**
+         * Path Sum in BST :: Explore problems
+         */
+//            PathSum ps = new PathSum();
     }
 }
