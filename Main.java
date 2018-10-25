@@ -39,5 +39,11 @@ public class Main {
          * Path Sum in BST :: Explore problems
          */
 //            PathSum ps = new PathSum();
+
+        /**
+         * Number of words that can be formed from given data referring dictionary
+         * */
+//        NumOfWords nm = new NumOfWords();
+//        System.out.println(nm.getWordCount("1223242"));
     }
 }
