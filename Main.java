@@ -48,6 +48,11 @@ public class Main {
 //        NumOfWords nm = new NumOfWords();
 //        System.out.println(nm.getWordCount("1223242"));
 
+        /**
+         * Jumping blocks equal to or less than the height of the current block and clear the field
+         * */
+//        BlockJumping bj = new BlockJumping();
+//        System.out.println(bj.CrossPossible(new int[]{4,2,0,3,2,2,0}));
 
     }
 }
