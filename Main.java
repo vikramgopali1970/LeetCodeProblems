@@ -54,5 +54,10 @@ public class Main {
 //        BlockJumping bj = new BlockJumping();
 //        System.out.println(bj.CrossPossible(new int[]{4,2,0,3,2,2,0}));
 
+        /**
+         * Leet Code #11 : Container With Most Water
+         * */
+        MaximumWaterContainer mwc = new MaximumWaterContainer();
+        System.out.println(mwc.getMaxWaterVolume(new int[]{1,8,6,2,5,4,8,3,7}));
     }
 }
