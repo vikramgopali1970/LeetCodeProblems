@@ -72,5 +72,12 @@ public class Main {
          * */
 //        RemoveInvalidParanthesis rip = new RemoveInvalidParanthesis();
 //        System.out.println(rip.removeInvalidParentheses(")(f"));
+
+        /**
+         * Leet Code #253 : Meeting Rooms II
+         * */
+        MeetingRooms2 mr2 = new MeetingRooms2(new int[]{1,3,10,2,8,11},new int[]{10,19,20,7,12,30});
+        System.out.println(mr2.minMeetingRooms());
+
     }
 }
