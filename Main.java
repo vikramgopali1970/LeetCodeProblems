@@ -82,7 +82,14 @@ public class Main {
         /**
          * Leet Code #121 : Best Time To Buy Sell Stock
          * */
-        BestTimeToBuySellStock btbss = new BestTimeToBuySellStock();
-        System.out.println(btbss.getMaxProfit(new int[]{7,1,5,3,6,4}));
+//        BestTimeToBuySellStock btbss = new BestTimeToBuySellStock();
+//        System.out.println(btbss.getMaxProfit(new int[]{7,1,5,3,6,4}));
+
+        /**
+         * Leet Code #31 : Next Permutation
+         * */
+//        NextPermutation np = new NextPermutation();
+//        np.nextPermutation(new int[]{1,2,3,2,4,6,3,3,4,5,3,3,2});
+
     }
 }
