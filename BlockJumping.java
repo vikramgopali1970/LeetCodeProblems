@@ -1,5 +1,7 @@
 package LeetProblem;
 
+
+
 public class BlockJumping {
 
     public boolean CrossPossible(int[] blocks){

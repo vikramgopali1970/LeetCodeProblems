@@ -91,5 +91,12 @@ public class Main {
 //        NextPermutation np = new NextPermutation();
 //        np.nextPermutation(new int[]{1,2,3,2,4,6,3,3,4,5,3,3,2});
 
+
+        /**
+         * Task Scheduler with not changing the order
+         * */
+        FixedScheduling fs = new FixedScheduling();
+        System.out.println(fs.fixedScheduling("AAAABCBACDER",3));
+
     }
 }
