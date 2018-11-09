@@ -95,8 +95,13 @@ public class Main {
         /**
          * Task Scheduler with not changing the order
          * */
-        FixedScheduling fs = new FixedScheduling();
-        System.out.println(fs.fixedScheduling("AAAABCBACDER",3));
+//        FixedScheduling fs = new FixedScheduling();
+//        System.out.println(fs.fixedScheduling("AAAABCBACDER",3));
 
+        /**
+         * Length of longest increasing subsequence
+         * */
+        LongestIncreasingSubsequence lis = new LongestIncreasingSubsequence();
+        System.out.println(lis.longestIncreasingSubsequenceLength(new int[]{10,22,9,33,21,50,41,60,80}));
     }
 }
