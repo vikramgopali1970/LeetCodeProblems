@@ -1,6 +1,8 @@
 package LeetProblem;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 class MeetingRooms2 {
 
@@ -24,6 +26,9 @@ class MeetingRooms2 {
         }
     }
 
+    /**
+     * Chronological sequence based solution
+     * */
     public int minMeetingRooms(){
         int[] start = new int[this.intervals.length];
         int[] end = new int[this.intervals.length];
@@ -45,6 +50,34 @@ class MeetingRooms2 {
             i++;
         }
         return rooms;
+    }
+
+    /**
+     * Priority Queue based solution
+     * */
+    public int meetingRoomsPQ(){
+        if(intervals.length == 0 ){
+            return 0;
+        }
+        PriorityQueue<Integer> q = new PriorityQueue<Integer>();
+
+        Arrays.sort(intervals,new Comparator<Interval>(){
+            public int compare(Interval i1,Interval i2){
+                return Integer.compare(i1.start,i2.start);
+            }
+        });
+
+        q.offer(intervals[0].end);
+        for(int j=1;j<intervals.length;j++){
+            Interval i = intervals[j];
+            if(i.start >= q.peek()){
+                q.poll();
+                q.offer(i.end);
+            }else{
+                q.offer(i.end);
+            }
+        }
+        return q.size();
     }
 
 }
