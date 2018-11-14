@@ -76,8 +76,8 @@ public class Main {
         /**
          * Leet Code #253 : Meeting Rooms II
          * */
-        MeetingRooms2 mr2 = new MeetingRooms2(new int[]{1,3,10,2,8,11},new int[]{10,19,20,7,12,30});
-        System.out.println(mr2.meetingRoomsPQ());
+//        MeetingRooms2 mr2 = new MeetingRooms2(new int[]{1,3,10,2,8,11},new int[]{10,19,20,7,12,30});
+//        System.out.println(mr2.meetingRoomsPQ());
 
         /**
          * Leet Code #121 : Best Time To Buy Sell Stock
@@ -103,5 +103,11 @@ public class Main {
          * */
 //        LongestIncreasingSubsequence lis = new LongestIncreasingSubsequence();
 //        System.out.println(lis.longestIncreasingSubsequenceLength(new int[]{10,22,9,33,21,50,41,60,80}));
+
+        /**
+         * Leet Code #10 : Regular Expression Matching
+         * */
+        RegularExpression re = new RegularExpression();
+        System.out.println(re.isMatch("mississippi","mis*is*p*."));
     }
 }
