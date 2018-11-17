@@ -125,5 +125,7 @@ public class Main {
         /**
          * Leet Code #200 : Number of Island
          * */
+//        NumberOfIsland nnoi = new NumberOfIsland();
+//        System.out.println(nnoi.numIslands(new char[][]{{'1','0','1','0'},{'0','1','0','1'}}));
     }
 }
