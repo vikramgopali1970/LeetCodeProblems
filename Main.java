@@ -127,5 +127,10 @@ public class Main {
          * */
 //        NumberOfIsland nnoi = new NumberOfIsland();
 //        System.out.println(nnoi.numIslands(new char[][]{{'1','0','1','0'},{'0','1','0','1'}}));
+
+        Tree t = new Tree();
+        TreeNode tn = t.serialize("1,2,null,null,3,4,null,null,5,null,null");
+        t.inOrder(tn);
+        t.printTree(tn);
     }
 }
