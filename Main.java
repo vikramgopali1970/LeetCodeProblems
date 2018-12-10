@@ -140,8 +140,13 @@ public class Main {
         /**
          * Leet Code #904 : Fruit Into Baskets
          * */
-        FruitsInBasket fib = new FruitsInBasket();
-        System.out.println(fib.totalFruit(new int[]{3,3,3,1,2,1,1,2,3,3,4}));
+//        FruitsInBasket fib = new FruitsInBasket();
+//        System.out.println(fib.totalFruit(new int[]{3,3,3,1,2,1,1,2,3,3,4}));
 
+        /**
+         * Leet Code #929: Unique Email Addresses
+         * */
+        UniqueEmailAddresses uea = new UniqueEmailAddresses();
+        System.out.println(uea.numUniqueEmails(new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}));
     }
 }
