@@ -134,7 +134,14 @@ public class Main {
         /**
          * Maximum Contiguous SubArray Sum
          * */
-        MaximumContiguousSubArraySum mcss = new MaximumContiguousSubArraySum();
-        System.out.println(mcss.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+//        MaximumContiguousSubArraySum mcss = new MaximumContiguousSubArraySum();
+//        System.out.println(mcss.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+
+        /**
+         * Leet Code #904 : Fruit Into Baskets
+         * */
+        FruitsInBasket fib = new FruitsInBasket();
+        System.out.println(fib.totalFruit(new int[]{3,3,3,1,2,1,1,2,3,3,4}));
+
     }
 }
