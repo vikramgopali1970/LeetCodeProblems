@@ -74,8 +74,8 @@ public class Main {
         /**
          * Leet Code #253 : Meeting Rooms II
          * */
-//        MeetingRooms2 mr2 = new MeetingRooms2(new int[]{1,3,10,2,8,11},new int[]{10,19,20,7,12,30});
-//        System.out.println(mr2.meetingRoomsPQ());
+        MeetingRooms2 mr2 = new MeetingRooms2(new int[]{1,2,6,5,3},new int[]{5,5,7,6,8});
+//        System.out.println(mr2.minMeetingRooms());
 
         /**
          * Leet Code #121 : Best Time To Buy Sell Stock
@@ -146,7 +146,13 @@ public class Main {
         /**
          * Leet Code #929: Unique Email Addresses
          * */
-        UniqueEmailAddresses uea = new UniqueEmailAddresses();
-        System.out.println(uea.numUniqueEmails(new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}));
+//        UniqueEmailAddresses uea = new UniqueEmailAddresses();
+//        System.out.println(uea.numUniqueEmails(new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}));
+
+
+        GoogleCodingSample gcs = new GoogleCodingSample();
+//        System.out.println(gcs.reachable(new int[]{10,13,12,14,15}));
+        System.out.println(gcs.reachable(new int[]{12}));
+//        System.out.println(gcs.reachable(new int[]{10, 11, 14, 11, 10}));
     }
 }
