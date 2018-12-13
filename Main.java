@@ -156,7 +156,7 @@ public class Main {
 //        System.out.println(gcs.reachable(new int[]{10, 11, 14, 11, 10}));
 
         /**
-         *
+         * Basic Calculator(not yet solved)
          * */
 //        BasicCalculator bc = new BasicCalculator();
 //        System.out.println(bc.calculate("(1+(4+5+2)-3)+(6+8)"));
@@ -164,7 +164,13 @@ public class Main {
         /**
          * Leet Code #482: License Key Formatting
          * */
-        LicenseKeyFormatting lkf = new LicenseKeyFormatting();
-        System.out.println(lkf.licenseKeyFormatting("5F3Z-2e-9-w",3));
+//        LicenseKeyFormatting lkf = new LicenseKeyFormatting();
+//        System.out.println(lkf.licenseKeyFormatting("5F3Z-2e-9-w",3));
+
+        /**
+         * Leet Code #159: Longest Substring with At Most Two Distinct Characters
+         * */
+        LongestSubstringwithTwoDistinctCharacters lswtdc = new LongestSubstringwithTwoDistinctCharacters();
+        System.out.println(lswtdc.lengthOfLongestSubstringTwoDistinct("ccaabbb"));
     }
 }
