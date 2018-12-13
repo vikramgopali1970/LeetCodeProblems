@@ -156,9 +156,15 @@ public class Main {
 //        System.out.println(gcs.reachable(new int[]{10, 11, 14, 11, 10}));
 
         /**
-         * Leet Code #482: License Key Formatting
+         *
          * */
 //        BasicCalculator bc = new BasicCalculator();
 //        System.out.println(bc.calculate("(1+(4+5+2)-3)+(6+8)"));
+
+        /**
+         * Leet Code #482: License Key Formatting
+         * */
+        LicenseKeyFormatting lkf = new LicenseKeyFormatting();
+        System.out.println(lkf.licenseKeyFormatting("5F3Z-2e-9-w",3));
     }
 }
