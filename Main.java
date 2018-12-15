@@ -170,7 +170,13 @@ public class Main {
         /**
          * Leet Code #159: Longest Substring with At Most Two Distinct Characters
          * */
-        LongestSubstringwithTwoDistinctCharacters lswtdc = new LongestSubstringwithTwoDistinctCharacters();
-        System.out.println(lswtdc.lengthOfLongestSubstringTwoDistinct("ccaabbb"));
+//        LongestSubstringwithTwoDistinctCharacters lswtdc = new LongestSubstringwithTwoDistinctCharacters();
+//        System.out.println(lswtdc.lengthOfLongestSubstringTwoDistinct("ccaabbb"));
+
+        /**
+         * Leet Code #683: K Empty Slots
+         * */
+        KEmptySlots kes = new KEmptySlots();
+        System.out.println(kes.kEmptySlotsSolution(new int[]{6,5,8,9,7,1,10,2,3,4},2));
     }
 }
