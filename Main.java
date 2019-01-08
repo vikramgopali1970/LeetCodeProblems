@@ -1,5 +1,7 @@
 package LeetProblem;
 
+import java.util.ArrayList;
+
 public class Main {
 
 
@@ -74,7 +76,7 @@ public class Main {
         /**
          * Leet Code #253 : Meeting Rooms II
          * */
-        MeetingRooms2 mr2 = new MeetingRooms2(new int[]{1,2,6,5,3},new int[]{5,5,7,6,8});
+//        MeetingRooms2 mr2 = new MeetingRooms2(new int[]{1,2,6,5,3},new int[]{5,5,7,6,8});
 //        System.out.println(mr2.minMeetingRooms());
 
         /**
@@ -176,7 +178,20 @@ public class Main {
         /**
          * Leet Code #683: K Empty Slots
          * */
-        KEmptySlots kes = new KEmptySlots();
-        System.out.println(kes.kEmptySlotsSolution(new int[]{6,5,8,9,7,1,10,2,3,4},2));
+//        KEmptySlots kes = new KEmptySlots();
+//        System.out.println(kes.kEmptySlotsSolution(new int[]{6,5,8,9,7,1,10,2,3,4},2));
+
+//        Help h = new Help();
+//        System.out.println(h.combine(new String[]{"AATTGGCCAATTG",
+//                "TTGAATTGGCCAAAA",
+//                "AAATTTGGGCCC",
+//                "AAAEEERRRTTT",
+//                "NEWUSER123"
+//        }));
+
+        /**
+        * Leet Code #56: Merge Intervals
+        * */
+        MergeIntervals mi = new MergeIntervals();
     }
 }
