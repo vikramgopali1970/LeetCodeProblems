@@ -192,14 +192,18 @@ public class Main {
         /**
         * Leet Code #56: Merge Intervals
         * */
-        MergeIntervals mi = new MergeIntervals();
+//        MergeIntervals mi = new MergeIntervals();
 
 
 
         /**
          * Leet Code #393: UTF-8 Validation
          * */
-        UTF8Validation utf8 = new UTF8Validation();
-        System.out.println(utf8.validUtf8(new int[]{197,130,1}));
+//        UTF8Validation utf8 = new UTF8Validation();
+//        System.out.println(utf8.validUtf8(new int[]{197,130,1}));
+
+
+        WorkSchedule ws = new WorkSchedule();
+        ws.schedule("??2??00",3,2);
     }
 }
