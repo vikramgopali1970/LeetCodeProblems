@@ -203,7 +203,14 @@ public class Main {
 //        System.out.println(utf8.validUtf8(new int[]{197,130,1}));
 
 
-        WorkSchedule ws = new WorkSchedule();
-        ws.schedule("??2??00",3,2);
+//        WorkSchedule ws = new WorkSchedule();
+//        ws.schedule("??2??00",3,2);
+
+        /**
+         * Leet Code #593: Valid Square
+         * */
+        ValidSquare vs = new ValidSquare();
+        System.out.println(vs.validSquare(new int[]{0,0},new int[]{1,1}, new int[]{0,0}, new int[]{0,0}));
+
     }
 }
