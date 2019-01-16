@@ -209,8 +209,20 @@ public class Main {
         /**
          * Leet Code #593: Valid Square
          * */
-        ValidSquare vs = new ValidSquare();
-        System.out.println(vs.validSquare(new int[]{0,0},new int[]{1,1}, new int[]{0,0}, new int[]{0,0}));
+//        ValidSquare vs = new ValidSquare();
+//        System.out.println(vs.validSquare(new int[]{0,0},new int[]{1,1}, new int[]{0,0}, new int[]{0,0}));
 
+
+        /**
+        * Leet Code #647: Palindromic Substrings
+        * */
+        PalindromicSubstrings ps = new PalindromicSubstrings();
+        System.out.println(ps.manachaersMethod("aaa"));
+
+        /**
+         * Manachars Algorithm to find the longest palindrome in O(N) time
+         * */
+//        ManacharsAlgorithm ma = new ManacharsAlgorithm();
+//        System.out.println(ma.longestPalindrome("abcbabcbabcba"));
     }
 }
