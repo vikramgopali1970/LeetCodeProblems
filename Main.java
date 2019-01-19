@@ -216,13 +216,17 @@ public class Main {
         /**
         * Leet Code #647: Palindromic Substrings
         * */
-        PalindromicSubstrings ps = new PalindromicSubstrings();
-        System.out.println(ps.manachaersMethod("aaa"));
+//        PalindromicSubstrings ps = new PalindromicSubstrings();
+//        System.out.println(ps.manachaersMethod("aaa"));
 
         /**
          * Manachars Algorithm to find the longest palindrome in O(N) time
          * */
 //        ManacharsAlgorithm ma = new ManacharsAlgorithm();
 //        System.out.println(ma.longestPalindrome("abcbabcbabcba"));
+
+
+        CountPalindromicSubsequence cps = new CountPalindromicSubsequence();
+        cps.countPalindromeSubsequence("bcbcb");
     }
 }
