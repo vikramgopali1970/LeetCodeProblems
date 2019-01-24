@@ -1,5 +1,7 @@
 package LeetProblem;
 
+import FenwickTree.FenwickTree;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -226,7 +228,27 @@ public class Main {
 //        System.out.println(ma.longestPalindrome("abcbabcbabcba"));
 
 
-        CountPalindromicSubsequence cps = new CountPalindromicSubsequence();
-        cps.countPalindromeSubsequence("bcbcb");
+//        CountPalindromicSubsequence cps = new CountPalindromicSubsequence();
+//        cps.countPalindromeSubsequence("bcbacbabdcbcbdcbddcaaccdcbbcdbcabbcdddadaadddbdbbbdacbabaabdddcaccccdccdbabcddbdcccabccbbcdbcdbdaada");
+
+//        SparseArraysHR sahr = new SparseArraysHR();
+//        int[] result = sahr.getQueries(new String[]{"aba","baba","aba", "xzxb"}, new String[]{"aba","xzxb","ab"});
+//        for(int i : result){
+//            System.out.println(i);
+//        }
+        TerrencePark tp = new TerrencePark();
+        tp.GetPaths(3,6);
+
+
+//        FenwickTree ft = new FenwickTree(11);
+//        ft.construct(new int[]{3,2,-1,6,5,4,-3,3,7,2,3});
+//        System.out.println(ft);
+//
+//        System.out.println(ft.sum(6));
+//
+//        ft.update(9,3);
+//        System.out.println(ft);
+//
+//        System.out.println(ft.rangeSum(3,6));
     }
 }

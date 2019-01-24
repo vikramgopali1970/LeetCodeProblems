@@ -107,7 +107,8 @@ public class CountPalindromicSubsequence {
 //                        System.out.println("not match "+this.printCell(i,j)+" !!"+this.printCell(i,j-1)+" "+this.printCell(i+1,j)+" "+this.printCell(i+1,j-1));
 //                        this.printMatrix(dp);
                     }
-                    dp[i][j] %= 1000000007;
+//                    dp[i][j] %= 1000000007;
+                dp[i][j] = dp[i][j] < 0 ? dp[i][j] + 1000000007 : dp[i][j] % 1000000007;
             }
         }
         System.out.println((dp[0][len-1]));
