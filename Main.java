@@ -254,7 +254,14 @@ public class Main {
 //
 //        System.out.println(ft.rangeSum(3,6));
 
-        BleedingInk bi = new BleedingInk(new int[500][500],new int[][]{{0,0,1000}});
-        System.out.println(bi.bleedInk());
+//        BleedingInk bi = new BleedingInk(new int[500][500],new int[][]{{0,0,1000}});
+//        System.out.println(bi.bleedInk());
+
+
+        /**
+         * Leet Code #844: Backspace String Compare
+         * */
+        BackspaceStringCompare bsc = new BackspaceStringCompare();
+        System.out.println(bsc.backspaceCompare("a#bb#c","bcbc##"));
     }
 }
