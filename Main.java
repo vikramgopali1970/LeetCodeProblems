@@ -261,7 +261,14 @@ public class Main {
         /**
          * Leet Code #844: Backspace String Compare
          * */
-        BackspaceStringCompare bsc = new BackspaceStringCompare();
-        System.out.println(bsc.backspaceCompare("a#bb#c","bcbc##"));
+//        BackspaceStringCompare bsc = new BackspaceStringCompare();
+//        System.out.println(bsc.backspaceCompare("a#bb#c","bcbc##"));
+
+        /**
+         * Leet Code #681 Next Closest Time
+         * */
+        NextClosestTime nct = new NextClosestTime();
+        System.out.println(nct.nextClosestTime("23:59"));
+
     }
 }
