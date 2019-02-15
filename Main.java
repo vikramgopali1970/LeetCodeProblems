@@ -267,8 +267,14 @@ public class Main {
         /**
          * Leet Code #681 Next Closest Time
          * */
-        NextClosestTime nct = new NextClosestTime();
-        System.out.println(nct.nextClosestTime("23:59"));
+//        NextClosestTime nct = new NextClosestTime();
+//        System.out.println(nct.nextClosestTime("23:59"));
 
+
+        /**
+         * Leet Code #973: K Closest Points to Origin
+         * */
+//        KClosestPointstoOrigin kcpto = new KClosestPointstoOrigin();
+//        System.out.println(kcpto.kClosest(new int[][]{{1,3},{-2,2}},1));
     }
 }
