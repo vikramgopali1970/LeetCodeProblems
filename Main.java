@@ -276,5 +276,11 @@ public class Main {
          * */
 //        KClosestPointstoOrigin kcpto = new KClosestPointstoOrigin();
 //        System.out.println(kcpto.kClosest(new int[][]{{1,3},{-2,2}},1));
+
+        /**
+         * Leet Code #819: Most Common Word
+         * */
+        MostCommonWord mcw = new MostCommonWord();
+        System.out.println(mcw.mostCommonWord("Hi vikram Gopali",new String[]{"Vikram"}));
     }
 }
