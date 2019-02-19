@@ -280,7 +280,18 @@ public class Main {
         /**
          * Leet Code #819: Most Common Word
          * */
-        MostCommonWord mcw = new MostCommonWord();
-        System.out.println(mcw.mostCommonWord("Hi vikram Gopali",new String[]{"Vikram"}));
+//        MostCommonWord mcw = new MostCommonWord();
+//        System.out.println(mcw.mostCommonWord("Hi vikram Gopali",new String[]{"Vikram"}));
+
+        /**
+         * Leet Code #21: Merge Two Sorted Lists
+         * */
+
+
+//        RandomLinkedList rll = new RandomLinkedList();
+//        rll.createList(new int[]{1,2,3,4,5,6,7});
+//        rll.printList();
+//        rll.copyRandomList();
+//        rll.printList();
     }
 }
