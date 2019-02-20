@@ -292,6 +292,11 @@ public class Main {
          * Leet Code #28: Implement strStr()
          * */
 
+        /**
+         * Leet Code #459: Repeated Substring Pattern
+         * */
+
+
 
 //        RandomLinkedList rll = new RandomLinkedList();
 //        rll.createList(new int[]{1,2,3,4,5,6,7});
