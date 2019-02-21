@@ -322,6 +322,13 @@ public class Main {
 
 
 
+        /**
+         * Leet Code #942: DI String Match
+         * */
+        DIStringMatch dism = new DIStringMatch();
+        System.out.println(dism.diStringMatch("IDIDIDI"));
+
+
 
 
 //        RandomLinkedList rll = new RandomLinkedList();
