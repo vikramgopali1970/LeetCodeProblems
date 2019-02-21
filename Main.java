@@ -307,6 +307,20 @@ public class Main {
         /**
          * Leet Code #764: Largest Plus Sign
          * */
+//        LargestPlusSign lps = new LargestPlusSign();
+//        System.out.println(lps.orderOfLargestPlusSign(5,new int[][]{{4,2}}));
+
+        /**
+         * Leet Code #84: Largest Rectangle in Histogram
+         * */
+//        LargestRectangleinHistogram lrih = new LargestRectangleinHistogram();
+//        System.out.println(lrih.largestRectangleArea(new int[]{1,0,1,0,0}));
+
+        /**
+         * Leet Code #85: Maximal Rectangle
+         * */
+
+
 
 
 

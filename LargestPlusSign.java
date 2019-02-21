@@ -34,7 +34,6 @@ public class LargestPlusSign {
         for(int j=0;j<dp[0].length;j++){
             int count = 0;
             for(int i=0;i<dp.length;i++){
-            for(int i=0;i<dp.length;i++){
                 if(dp[i][j] == -1){
                     count=0;
                 }else{
@@ -42,7 +41,6 @@ public class LargestPlusSign {
                     dp[i][j] = Math.min(dp[i][j],count);
                 }
             }
-
             count = 0;
             for(int i=N-1;i>=0;i--){
                 if(dp[i][j] == -1){
