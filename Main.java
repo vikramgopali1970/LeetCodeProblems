@@ -1,6 +1,7 @@
 package LeetProblem;
 
 import FenwickTree.FenwickTree;
+import LeetcodeDynamicProgramming.NumberOfOccuranceofSubsequenceT;
 
 import java.util.ArrayList;
 
@@ -325,11 +326,12 @@ public class Main {
         /**
          * Leet Code #942: DI String Match
          * */
-        DIStringMatch dism = new DIStringMatch();
-        System.out.println(dism.diStringMatch("IDIDIDI"));
+//        DIStringMatch dism = new DIStringMatch();
+//        System.out.println(dism.diStringMatch("IDIDIDI"));
 
 
-
+        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
+        System.out.println(noswkuc.count("pqpqs",2));
 
 //        RandomLinkedList rll = new RandomLinkedList();
 //        rll.createList(new int[]{1,2,3,4,5,6,7});
