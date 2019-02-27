@@ -329,9 +329,14 @@ public class Main {
 //        DIStringMatch dism = new DIStringMatch();
 //        System.out.println(dism.diStringMatch("IDIDIDI"));
 
+        /**
+         * Leet Code 187. Repeated DNA Sequences
+         * */
+        RepeatedDNASequences rds = new RepeatedDNASequences();
+        System.out.println(rds.findRepeatedDnaSequences("AAAAAAAAAAA"));
 
-        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
-        System.out.println(noswkuc.count("pqpqs",2));
+//        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
+//        System.out.println(noswkuc.count("pqpqs",2));
 
 //        RandomLinkedList rll = new RandomLinkedList();
 //        rll.createList(new int[]{1,2,3,4,5,6,7});
