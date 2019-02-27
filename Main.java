@@ -338,8 +338,14 @@ public class Main {
         /**
          * Leet Code 957. Prison Cells After N Days
          * */
-        PrisonCellsAfterNDays pcand = new PrisonCellsAfterNDays();
-        pcand.prisonAfterNDays(new int[]{1,0,1,1,1,0,0,0},7);
+//        PrisonCellsAfterNDays pcand = new PrisonCellsAfterNDays();
+//        pcand.prisonAfterNDays(new int[]{1,0,1,1,1,0,0,0},7);
+
+        /**
+         * Leet Code 23. Merge k Sorted Lists
+         * */
+//        MergekSortedLists msl = new MergekSortedLists();
+//        msl.mergeKLists()
 
 //        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
 //        System.out.println(noswkuc.count("pqpqs",2));
