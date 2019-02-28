@@ -330,19 +330,23 @@ public class Main {
 //        System.out.println(dism.diStringMatch("IDIDIDI"));
 
         /**
-         * Leet Code 187. Repeated DNA Sequences
+         * Leet Code #187: Repeated DNA Sequences
          * */
 //        RepeatedDNASequences rds = new RepeatedDNASequences();
 //        System.out.println(rds.findRepeatedDnaSequences("AAAAAAAAAAA"));
 
         /**
-         * Leet Code 957. Prison Cells After N Days
+         * Leet Code #957 Prison Cells After N Days
          * */
 //        PrisonCellsAfterNDays pcand = new PrisonCellsAfterNDays();
 //        pcand.prisonAfterNDays(new int[]{1,0,1,1,1,0,0,0},7);
 
         /**
-         * Leet Code 23. Merge k Sorted Lists
+         * Leet Code #23: Merge k Sorted Lists
+         * */
+
+        /**
+         * Leet Code #42: Trapping Rain Water
          * */
 //        MergekSortedLists msl = new MergekSortedLists();
 //        msl.mergeKLists()
