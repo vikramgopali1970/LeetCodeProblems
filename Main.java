@@ -361,9 +361,14 @@ public class Main {
         /**
          * Leet Code #20: Valid Parentheses
          * */
-        ValidParentheses vp = new ValidParentheses();
-        System.out.println(vp.isValid("{}{}{}}{"));
+//        ValidParentheses vp = new ValidParentheses();
+//        System.out.println(vp.isValid("{}{}{}}{"));
 
+        /**
+         * Leet Code #15: 3Sum
+         * */
+        ThreeSum ts = new ThreeSum();
+        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 //        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
 //        System.out.println(noswkuc.count("pqpqs",2));
 
