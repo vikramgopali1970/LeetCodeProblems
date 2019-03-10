@@ -355,8 +355,14 @@ public class Main {
         /**
          * Leet Code #3:  Longest Substring Without Repeating Characters
          * */
-        LongeSubstringWithoutRepeatingCharacters lswrc = new LongeSubstringWithoutRepeatingCharacters();
-        System.out.println(lswrc.lengthOfLongestSubstring("dvdf"));
+//        LongeSubstringWithoutRepeatingCharacters lswrc = new LongeSubstringWithoutRepeatingCharacters();
+//        System.out.println(lswrc.lengthOfLongestSubstring("dvdf"));
+
+        /**
+         * Leet Code #20: Valid Parentheses
+         * */
+        ValidParentheses vp = new ValidParentheses();
+        System.out.println(vp.isValid("{}{}{}}{"));
 
 //        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
 //        System.out.println(noswkuc.count("pqpqs",2));
