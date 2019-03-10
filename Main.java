@@ -351,13 +351,17 @@ public class Main {
 //        MergekSortedLists msl = new MergekSortedLists();
 //        msl.mergeKLists()
 
+
+        /**
+         * Leet Code #3:  Longest Substring Without Repeating Characters
+         * */
+        LongeSubstringWithoutRepeatingCharacters lswrc = new LongeSubstringWithoutRepeatingCharacters();
+        System.out.println(lswrc.lengthOfLongestSubstring("dvdf"));
+
 //        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
 //        System.out.println(noswkuc.count("pqpqs",2));
 
-//        RandomLinkedList rll = new RandomLinkedList();
-//        rll.createList(new int[]{1,2,3,4,5,6,7});
-//        rll.printList();
-//        rll.copyRandomList();
-//        rll.printList();
+//        Mountains m = new Mountains();
+//        System.out.println(m.mountains(18));
     }
 }
