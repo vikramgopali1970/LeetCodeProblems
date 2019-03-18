@@ -4,6 +4,7 @@ import FenwickTree.FenwickTree;
 import LeetcodeDynamicProgramming.NumberOfOccuranceofSubsequenceT;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class Main {
 
@@ -367,8 +368,15 @@ public class Main {
         /**
          * Leet Code #15: 3Sum
          * */
-        ThreeSum ts = new ThreeSum();
-        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
+//        ThreeSum ts = new ThreeSum();
+//        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
+
+
+//        AmazonTest at = new AmazonTest();
+//        System.out.println(at.getRange(new int[]{-2,1,2,-2,2,-2,-3,3,-1,1}));
+
+        SortStack ss = new SortStack(new int[]{2,3,1,43,1,2,3,1,2,4});
+        System.out.println(ss.stackSort(ss.getS()));
 //        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
 //        System.out.println(noswkuc.count("pqpqs",2));
 
