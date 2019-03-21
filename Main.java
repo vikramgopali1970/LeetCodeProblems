@@ -372,11 +372,17 @@ public class Main {
 //        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 
 
-//        AmazonTest at = new AmazonTest();
-//        System.out.println(at.getRange(new int[]{-2,1,2,-2,2,-2,-3,3,-1,1}));
+        AmazonTest at = new AmazonTest();
+        System.out.println(at.substringk("awaglk",4));
 
-        SortStack ss = new SortStack(new int[]{2,3,1,43,1,2,3,1,2,4});
-        System.out.println(ss.stackSort(ss.getS()));
+//        SortStack ss = new SortStack(new int[]{2,3,1,43,1,2,3,1,2,4});
+//        System.out.println(ss.stackSort(ss.getS()));
+
+//        Missing2Numbers m2n = new Missing2Numbers();
+//        m2n.missing2Numbers(new int[]{2,3,1,4,5,8,6});
+
+
+
 //        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
 //        System.out.println(noswkuc.count("pqpqs",2));
 
