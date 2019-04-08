@@ -3,8 +3,7 @@ package LeetProblem;
 import FenwickTree.FenwickTree;
 import LeetcodeDynamicProgramming.NumberOfOccuranceofSubsequenceT;
 
-import java.util.ArrayList;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
 
@@ -366,14 +365,31 @@ public class Main {
 //        System.out.println(vp.isValid("{}{}{}}{"));
 
         /**
+         * Leet Code #239: Sliding Window Maximum
+         * */
+
+        SlidingWindowMaximum swm = new SlidingWindowMaximum();
+        swm.maxSlidingWindow(new int[]{1,2,1,4,31,23,62,123,1,1,},3);
+
+        /**
          * Leet Code #15: 3Sum
          * */
 //        ThreeSum ts = new ThreeSum();
 //        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 
 
-        AmazonTest at = new AmazonTest();
-        System.out.println(at.substringk("awaglk",4));
+//            NextBigElement nbe = new NextBigElement();
+//            int[] res = nbe.nextBigElement(new int[]{2, 7, 5, 6});
+
+//        PhraseCheck pc = new PhraseCheck();
+//        Map<String, List<Integer>> doc = new HashMap<String,List<Integer>>();
+//        doc.put("i",Arrays.asList(new Integer[]{0,5,7,12}));
+//        doc.put("went",Arrays.asList(new Integer[]{1,8}));
+//        doc.put("to",Arrays.asList(new Integer[]{6,9,1000}));
+//        doc.put("the",Arrays.asList(new Integer[]{3,19,10}));
+//        doc.put("store",Arrays.asList(new Integer[]{4,14,199,11}));
+//        System.out.println(pc.phraseCheck(doc,"i went to the store"));
+
 
 //        SortStack ss = new SortStack(new int[]{2,3,1,43,1,2,3,1,2,4});
 //        System.out.println(ss.stackSort(ss.getS()));
@@ -381,12 +397,21 @@ public class Main {
 //        Missing2Numbers m2n = new Missing2Numbers();
 //        m2n.missing2Numbers(new int[]{2,3,1,4,5,8,6});
 
+//        Kiran k = new Kiran();
+//        System.out.println(k.dropCount(new int[]{}));
 
-
+//        MakeSentence ms = new MakeSentence();
+//        ms.parseString("{I am| I'm} {working on|starting} this {online|} interview");
+//        ms.count(new int[]{4,3,3,3,6,1,1,1});
+//        ms.longString("abcwxyzabghwxyz");
+//        ms.longString("abcadefcb");
+//        ms.longString("abcaeabcaeabcdabcd");
 //        NumberOfSubstringWithKUniqueChars noswkuc = new NumberOfSubstringWithKUniqueChars();
 //        System.out.println(noswkuc.count("pqpqs",2));
 
 //        Mountains m = new Mountains();
 //        System.out.println(m.mountains(18));
     }
+
+
 }
