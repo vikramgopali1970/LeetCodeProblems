@@ -400,6 +400,14 @@ public class Main {
 //        Kiran k = new Kiran();
 //        System.out.println(k.dropCount(new int[]{}));
 
+
+        UniqueStores us = new UniqueStores();
+        System.out.println(us.UniqueStores("NSNSNS"));
+        System.out.println(us.UniqueStores("NSEW"));
+        System.out.println(us.UniqueStores("NEWSSEENWW"));
+        System.out.println(us.UniqueStores("NNWWEEESWESW"));
+        System.out.println(us.UniqueStores(""));
+
 //        MakeSentence ms = new MakeSentence();
 //        ms.parseString("{I am| I'm} {working on|starting} this {online|} interview");
 //        ms.count(new int[]{4,3,3,3,6,1,1,1});
