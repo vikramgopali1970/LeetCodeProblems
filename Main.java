@@ -368,8 +368,9 @@ public class Main {
          * Leet Code #239: Sliding Window Maximum
          * */
 
-        SlidingWindowMaximum swm = new SlidingWindowMaximum();
-        swm.maxSlidingWindow(new int[]{1,2,1,4,31,23,62,123,1,1,},3);
+
+//        SlidingWindowMaximum swm = new SlidingWindowMaximum();
+//        swm.maxSlidingWindow(new int[]{1,2,1,4,31,23,62,123,1,1,},3);
 
         /**
          * Leet Code #15: 3Sum
@@ -377,6 +378,11 @@ public class Main {
 //        ThreeSum ts = new ThreeSum();
 //        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 
+        /**
+         * Leet Code #924: Minimize Malware Spread
+         * */
+        MinimizeMalwareSpread mms = new MinimizeMalwareSpread();
+        System.out.println(mms.minMalwareSpread(new int[][]{{1,1,0},{1,1,0},{0,0,1}},new int[]{0,1}));
 
 //            NextBigElement nbe = new NextBigElement();
 //            int[] res = nbe.nextBigElement(new int[]{2, 7, 5, 6});
@@ -401,12 +407,12 @@ public class Main {
 //        System.out.println(k.dropCount(new int[]{}));
 
 
-        UniqueStores us = new UniqueStores();
-        System.out.println(us.UniqueStores("NSNSNS"));
-        System.out.println(us.UniqueStores("NSEW"));
-        System.out.println(us.UniqueStores("NEWSSEENWW"));
-        System.out.println(us.UniqueStores("NNWWEEESWESW"));
-        System.out.println(us.UniqueStores(""));
+//        UniqueStores us = new UniqueStores();
+//        System.out.println(us.UniqueStores("NSNSNS"));
+//        System.out.println(us.UniqueStores("NSEW"));
+//        System.out.println(us.UniqueStores("NEWSSEENWW"));
+//        System.out.println(us.UniqueStores("NNWWEEESWESW"));
+//        System.out.println(us.UniqueStores(""));
 
 //        MakeSentence ms = new MakeSentence();
 //        ms.parseString("{I am| I'm} {working on|starting} this {online|} interview");
