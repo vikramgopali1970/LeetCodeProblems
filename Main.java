@@ -379,6 +379,15 @@ public class Main {
 //        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 
         /**
+         * Leet Code #1010: Pairs of Songs With Total Durations Divisible by 60
+         * */
+        PairsofSongsWithTotalDurationsDivisibleby60 pswtdd = new PairsofSongsWithTotalDurationsDivisibleby60();
+        System.out.println(pswtdd.numPairsDivisibleBy60(new int[]{60,60,60}));
+
+
+
+
+        /**
          * Leet Code #924: Minimize Malware Spread
          * */
         MinimizeMalwareSpread mms = new MinimizeMalwareSpread();
