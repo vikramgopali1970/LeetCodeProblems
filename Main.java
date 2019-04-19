@@ -379,10 +379,15 @@ public class Main {
 //        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 
         /**
+         * Leet Code #997: Find the Town Judge
+         * */
+        FindtheTownJudge ftj = new FindtheTownJudge();
+
+        /**
          * Leet Code #1010: Pairs of Songs With Total Durations Divisible by 60
          * */
-        PairsofSongsWithTotalDurationsDivisibleby60 pswtdd = new PairsofSongsWithTotalDurationsDivisibleby60();
-        System.out.println(pswtdd.numPairsDivisibleBy60(new int[]{60,60,60}));
+//        PairsofSongsWithTotalDurationsDivisibleby60 pswtdd = new PairsofSongsWithTotalDurationsDivisibleby60();
+//        System.out.println(pswtdd.numPairsDivisibleBy60(new int[]{60,60,60}));
 
 
 
@@ -390,8 +395,8 @@ public class Main {
         /**
          * Leet Code #924: Minimize Malware Spread
          * */
-        MinimizeMalwareSpread mms = new MinimizeMalwareSpread();
-        System.out.println(mms.minMalwareSpread(new int[][]{{1,1,0},{1,1,0},{0,0,1}},new int[]{0,1}));
+//        MinimizeMalwareSpread mms = new MinimizeMalwareSpread();
+//        System.out.println(mms.minMalwareSpread(new int[][]{{1,1,0},{1,1,0},{0,0,1}},new int[]{0,1}));
 
 //            NextBigElement nbe = new NextBigElement();
 //            int[] res = nbe.nextBigElement(new int[]{2, 7, 5, 6});
