@@ -210,6 +210,15 @@ public class Main {
 //        ws.schedule("??2??00",3,2);
 
         /**
+         * Leet Code #1020: Number of Enclaves
+         * */
+
+        NumberofEnclaves noe = new NumberofEnclaves();
+        System.out.println(noe.numEnclaves(new int[][]{{0,0,0,0},{1,0,1,0},{0,1,1,0},{0,0,0,0}}));
+
+
+
+        /**
          * Leet Code #593: Valid Square
          * */
 //        ValidSquare vs = new ValidSquare();
@@ -229,8 +238,10 @@ public class Main {
 //        System.out.println(ma.longestPalindrome("abcbabcbabcba"));
 
 
+//
 //        CountPalindromicSubsequence cps = new CountPalindromicSubsequence();
-//        cps.countPalindromeSubsequence("bcbacbabdcbcbdcbddcaaccdcbbcdbcabbcdddadaadddbdbbbdacbabaabdddcaccccdccdbabcddbdcccabccbbcdbcdbdaada");
+//        cps.countPalindromeSubsequence("hellolle");
+
 
 //        SparseArraysHR sahr = new SparseArraysHR();
 //        int[] result = sahr.getQueries(new String[]{"aba","baba","aba", "xzxb"}, new String[]{"aba","xzxb","ab"});
@@ -381,7 +392,7 @@ public class Main {
         /**
          * Leet Code #997: Find the Town Judge
          * */
-        FindtheTownJudge ftj = new FindtheTownJudge();
+//        FindtheTownJudge ftj = new FindtheTownJudge();
 
         /**
          * Leet Code #1010: Pairs of Songs With Total Durations Divisible by 60
@@ -389,6 +400,14 @@ public class Main {
 //        PairsofSongsWithTotalDurationsDivisibleby60 pswtdd = new PairsofSongsWithTotalDurationsDivisibleby60();
 //        System.out.println(pswtdd.numPairsDivisibleBy60(new int[]{60,60,60}));
 
+
+
+
+        /**
+         * Leet Code #213: House Robber II
+         * */
+//        HouseRobberII hsII = new HouseRobberII();
+//        System.out.println(hsII.rob(new int[]{2,1,1,1,2}));
 
 
 
@@ -411,6 +430,8 @@ public class Main {
 //        System.out.println(pc.phraseCheck(doc,"i went to the store"));
 
 
+//        ParenthesisSequence ps = new ParenthesisSequence();
+//        ps.printSequence();
 //        SortStack ss = new SortStack(new int[]{2,3,1,43,1,2,3,1,2,4});
 //        System.out.println(ss.stackSort(ss.getS()));
 
