@@ -17,7 +17,7 @@ public class ParenthesisSequence {
             }else if(ch == ')'){
                 c--;
             }else{
-                if(o-c <= 1 && o>0){
+                if(o-c < 1 && o>0){
                     res[i] = '(';
                     o--;
                 }else{

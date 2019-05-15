@@ -213,8 +213,8 @@ public class Main {
          * Leet Code #1020: Number of Enclaves
          * */
 
-        NumberofEnclaves noe = new NumberofEnclaves();
-        System.out.println(noe.numEnclaves(new int[][]{{0,0,0,0},{1,0,1,0},{0,1,1,0},{0,0,0,0}}));
+//        NumberofEnclaves noe = new NumberofEnclaves();
+//        System.out.println(noe.numEnclaves(new int[][]{{0,0,0,0},{1,0,1,0},{0,1,1,0},{0,0,0,0}}));
 
 
 
@@ -460,6 +460,10 @@ public class Main {
 
 //        Mountains m = new Mountains();
 //        System.out.println(m.mountains(18));
+
+//        WalkingRobot wr = new WalkingRobot();
+//        wr.maxPosition();
+
     }
 
 
