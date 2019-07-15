@@ -406,8 +406,8 @@ public class Main {
         /**
          * Leet Code #1031: Maximum Sum of Two Non-Overlapping Subarrays
          * */
-        MaximumSumofTwoNonOverlappingSubarrays mstnos = new MaximumSumofTwoNonOverlappingSubarrays();
-        System.out.println(mstnos.maxSumTwoNoOverlap(new int[]{2,1,5,6,0,9,5,0,3,8},4,3));
+//        MaximumSumofTwoNonOverlappingSubarrays mstnos = new MaximumSumofTwoNonOverlappingSubarrays();
+//        System.out.println(mstnos.maxSumTwoNoOverlap(new int[]{2,1,5,6,0,9,5,0,3,8},4,3));
 
         /**
          * Leet Code #213: House Robber II
@@ -425,6 +425,12 @@ public class Main {
 
 //            NextBigElement nbe = new NextBigElement();
 //            int[] res = nbe.nextBigElement(new int[]{2, 7, 5, 6});
+
+
+//        AmazonNew an = new AmazonNew();
+//        System.out.println(an.mergeSubFiles(new int[]{1,2,5,10,35,89}));
+//        System.out.println(an.minimumDistance(new int[][]{{1,0,0},{1,0,0},{1,9,1}}));
+//        System.out.println(an.minimumDistance(new int[][]{{1,1,1,1},{1,1,1,9},{1,1,1,1},{1,1,1,1},{1,1,1,1}}));
 
 //        PhraseCheck pc = new PhraseCheck();
 //        Map<String, List<Integer>> doc = new HashMap<String,List<Integer>>();
@@ -466,7 +472,8 @@ public class Main {
 
 //        Mountains m = new Mountains();
 //        System.out.println(m.mountains(18));
-
+        PathInZigzagLabelledBinaryTree pizlbt = new PathInZigzagLabelledBinaryTree();
+        System.out.println(pizlbt.pathInZigZagTree(15));
 //        WalkingRobot wr = new WalkingRobot();
 //        wr.maxPosition();
 

@@ -1,0 +1,54 @@
+package LeetProblem;
+
+import java.util.PriorityQueue;
+
+public class AmazonNew {
+    public int mergeSubFiles(int[] tracks){
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+        for(int i=0;i<tracks.length;i++){
+            pq.offer(tracks[i]);
+        }
+        int sum=0;
+        while(!pq.isEmpty() && pq.size() >= 2){
+            int t1 = pq.poll();
+            int t2 = pq.poll();
+            sum+=t1+t2;
+            pq.offer(t1+t2);
+        }
+        return sum;
+    }
+
+    public int minimumDistance(int[][] maze){
+        return this.minimumDistanceHelper(maze,0,0,0);
+    }
+
+    private int minimumDistanceHelper(int[][] maze, int r, int c,int path){
+        if(c >= maze[0].length || c < 0 || r >= maze.length || r < 0 || maze[r][c] == 0){
+            return -1;
+        }else{
+            if(maze[r][c] == 9){
+                return path;
+            }
+            maze[r][c] = 0;
+            int[] paths = new int[4];
+            paths[0] = this.minimumDistanceHelper(maze,r+1,c,path+1);
+            paths[1] = this.minimumDistanceHelper(maze,r,c+1,path+1);
+            paths[2] = this.minimumDistanceHelper(maze,r-1,c,path+1);
+            paths[3] = this.minimumDistanceHelper(maze,r,c-1,path+1);
+            maze[r][c] = 1;
+            return minPaths(paths);
+        }
+    }
+
+    private int minPaths(int[] arr){
+        int min = Integer.MAX_VALUE;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i] == -1){
+                continue;
+            }else{
+                min = Math.min(min, arr[i]);
+            }
+        }
+        return (min == Integer.MAX_VALUE)?-1:min;
+    }
+}
