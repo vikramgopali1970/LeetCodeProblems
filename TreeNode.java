@@ -6,4 +6,8 @@ public class TreeNode extends Tree {
       TreeNode right;
 
       public TreeNode(int x) { val = x; }
+
+      public String toString(){
+            return String.valueOf(this.val);
+      }
 }
