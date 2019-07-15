@@ -472,11 +472,22 @@ public class Main {
 
 //        Mountains m = new Mountains();
 //        System.out.println(m.mountains(18));
-        PathInZigzagLabelledBinaryTree pizlbt = new PathInZigzagLabelledBinaryTree();
-        System.out.println(pizlbt.pathInZigZagTree(15));
+
 //        WalkingRobot wr = new WalkingRobot();
 //        wr.maxPosition();
 
+        /**
+         * Leet Code #1104: Path In Zigzag Labelled Binary Tree
+         * */
+//        PathInZigzagLabelledBinaryTree pizlbt = new PathInZigzagLabelledBinaryTree();
+//        System.out.println(pizlbt.pathInZigZagTree(15));
+
+        /**
+         * Leet Code #1122: Relative Sort Array
+         * */
+        RelativeSortArray rsa = new RelativeSortArray();
+        rsa.relativeSortArray(new int[]{2,3,1,3,2,4,6,7,9,2,19}, new int[]{2,1,4,3,9,6});
+        rsa.relativeSortArray(new int[]{33,22,48,4,39,36,41,47,15,45}, new int[]{22,33,48,4});
     }
 
 
