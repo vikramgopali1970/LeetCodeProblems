@@ -427,12 +427,12 @@ public class Main {
 //            int[] res = nbe.nextBigElement(new int[]{2, 7, 5, 6});
 
 
-        AmazonNew an = new AmazonNew();
+//        AmazonNew an = new AmazonNew();
 //        an.twoNumbers(100);
 //        an.fiboSeries(14,21);
 
-        CookieExchanges ce = new CookieExchanges();
-        ce.cookieExchange(14,14,14);
+//        CookieExchanges ce = new CookieExchanges();
+//        ce.cookieExchange(14,14,14);
 
         //L and R
 //        System.out.println(an.mergeSubFiles(new int[]{1,2,5,10,35,89}));
@@ -501,7 +501,11 @@ public class Main {
          * */
 //        LowestCommonAncestorofDeepestLeaves lcadl = new LowestCommonAncestorofDeepestLeaves();
 
-
+        /**
+         * Leet Code #1124: Longest Well-Performing Interval
+         * */
+        LongestWellPerformingInterval lwpi = new LongestWellPerformingInterval();
+        System.out.println(lwpi.longestWPI(new int[]{6,6,9,6,9,6,9}));
     }
 
 
