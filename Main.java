@@ -427,7 +427,14 @@ public class Main {
 //            int[] res = nbe.nextBigElement(new int[]{2, 7, 5, 6});
 
 
-//        AmazonNew an = new AmazonNew();
+        AmazonNew an = new AmazonNew();
+//        an.twoNumbers(100);
+//        an.fiboSeries(14,21);
+
+        CookieExchanges ce = new CookieExchanges();
+        ce.cookieExchange(14,14,14);
+
+        //L and R
 //        System.out.println(an.mergeSubFiles(new int[]{1,2,5,10,35,89}));
 //        System.out.println(an.minimumDistance(new int[][]{{1,0,0},{1,0,0},{1,9,1}}));
 //        System.out.println(an.minimumDistance(new int[][]{{1,1,1,1},{1,1,1,9},{1,1,1,1},{1,1,1,1},{1,1,1,1}}));
@@ -492,7 +499,7 @@ public class Main {
         /**
          * Leet Code #1123: Lowest Common Ancestor of Deepest Leaves
          * */
-        LowestCommonAncestorofDeepestLeaves lcadl = new LowestCommonAncestorofDeepestLeaves();
+//        LowestCommonAncestorofDeepestLeaves lcadl = new LowestCommonAncestorofDeepestLeaves();
 
 
     }

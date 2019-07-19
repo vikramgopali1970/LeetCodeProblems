@@ -51,4 +51,29 @@ public class AmazonNew {
         }
         return (min == Integer.MAX_VALUE)?-1:min;
     }
+
+    public void twoNumbers(int n){
+        int x = (int) Math.ceil(Math.sqrt(n));
+        int y = (int) Math.ceil(n/x) + 1;
+        System.out.println(x+y);
+    }
+
+    public void fiboSeries(int l, int r){
+        int a = 0;
+        int b = 1;
+        int sum = 0;
+        int nextFib = 0;
+        while(nextFib <=r){
+            nextFib = a+b;
+            if(nextFib >= l && l<=r){
+                while(l <= nextFib && l<=r){
+                    sum+=nextFib;
+                    l++;
+                }
+            }
+            a = b;
+            b = nextFib;
+        }
+        System.out.println(sum);
+    }
 }
