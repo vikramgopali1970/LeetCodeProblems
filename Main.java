@@ -516,9 +516,16 @@ public class Main {
 
 
         /**
+         * Leet Code #1144: Decrease Elements To Make Array Zigzag
+         * */
+        DecreaseElementsToMakeArrayZigzag detmaz = new DecreaseElementsToMakeArrayZigzag();
+        System.out.println(detmaz.movesToMakeZigzag(new int[]{9,6,1,6,2}));
+
+
+        /**
          * Leet Code #1145: Binary Tree Coloring Game
          * */
-        BinaryTreeColoringGame btcg = new BinaryTreeColoringGame();
+//        BinaryTreeColoringGame btcg = new BinaryTreeColoringGame();
 //        System.out.println(btcg.btreeGameWinningMove());
 
 
