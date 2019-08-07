@@ -1,6 +1,9 @@
 package LeetProblem;
 
+import org.omg.PortableInterceptor.INACTIVE;
+
 import java.util.PriorityQueue;
+import java.util.TreeSet;
 
 public class AmazonNew {
     public int mergeSubFiles(int[] tracks){
@@ -75,5 +78,15 @@ public class AmazonNew {
             b = nextFib;
         }
         System.out.println(sum);
+    }
+
+    public void countInversion(int[] arr){
+        int res = 0;
+        TreeSet<Integer> tset = new TreeSet<Integer>();
+        for(int i=0;i<arr.length;i++){
+            tset.add(arr[i]);
+            res += tset.tailSet(arr[i],false).size();
+        }
+        System.out.println(res);
     }
 }

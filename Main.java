@@ -428,6 +428,9 @@ public class Main {
 
 
 //        AmazonNew an = new AmazonNew();
+//        an.countInversion(new int[]{2,4,1,3,5});
+//        an.countInversion(new int[]{5,4,3,2,1});
+//        an.countInversion(new int[]{1,2,3,4,5});
 //        an.twoNumbers(100);
 //        an.fiboSeries(14,21);
 
@@ -502,10 +505,18 @@ public class Main {
 //        LowestCommonAncestorofDeepestLeaves lcadl = new LowestCommonAncestorofDeepestLeaves();
 
         /**
+         * Leet Code #1147: Longest Chunked Palindrome Decomposition
+         * */
+        LongestChunkedPalindromeDecomposition lcpd = new LongestChunkedPalindromeDecomposition();
+        System.out.println(lcpd.longestDecomposition("ghiabcdefhelloadamhelloabcdefghi"));
+
+        /**
          * Leet Code #1124: Longest Well-Performing Interval
          * */
-        LongestWellPerformingInterval lwpi = new LongestWellPerformingInterval();
-        System.out.println(lwpi.longestWPI(new int[]{6,6,9,6,9,6,9}));
+//        LongestWellPerformingInterval lwpi = new LongestWellPerformingInterval();
+//        System.out.println(lwpi.longestWPI(new int[]{6,6,9,6,9,6,9}));
+
+
     }
 
 
