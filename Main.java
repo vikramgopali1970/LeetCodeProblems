@@ -515,6 +515,12 @@ public class Main {
          * */
 
 
+        /**
+         * Leet Code #1145: Binary Tree Coloring Game
+         * */
+        BinaryTreeColoringGame btcg = new BinaryTreeColoringGame();
+//        System.out.println(btcg.btreeGameWinningMove());
+
 
         /**
          * Leet Code #1124: Longest Well-Performing Interval
