@@ -507,8 +507,14 @@ public class Main {
         /**
          * Leet Code #1147: Longest Chunked Palindrome Decomposition
          * */
-        LongestChunkedPalindromeDecomposition lcpd = new LongestChunkedPalindromeDecomposition();
-        System.out.println(lcpd.longestDecomposition("ghiabcdefhelloadamhelloabcdefghi"));
+//        LongestChunkedPalindromeDecomposition lcpd = new LongestChunkedPalindromeDecomposition();
+//        System.out.println(lcpd.longestDecomposition("ghiabcdefhelloadamhelloabcdefghi"));
+
+        /**
+         * Leet Code #1146: Snapshot Array
+         * */
+
+
 
         /**
          * Leet Code #1124: Longest Well-Performing Interval
