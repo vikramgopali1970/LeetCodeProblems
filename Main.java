@@ -104,7 +104,7 @@ public class Main {
         /**
          * Length of longest increasing subsequence
          * */
-//        LongestIncreasingSubsequence lis = new LongestIncreasingSubsequence();
+//        LongestCommonSubsequence lis = new LongestCommonSubsequence();
 //        System.out.println(lis.longestIncreasingSubsequenceLength(new int[]{10,22,9,33,21,50,41,60,80}));
 
         /**
@@ -518,8 +518,8 @@ public class Main {
         /**
          * Leet Code #1144: Decrease Elements To Make Array Zigzag
          * */
-        DecreaseElementsToMakeArrayZigzag detmaz = new DecreaseElementsToMakeArrayZigzag();
-        System.out.println(detmaz.movesToMakeZigzag(new int[]{9,6,1,6,2}));
+//        DecreaseElementsToMakeArrayZigzag detmaz = new DecreaseElementsToMakeArrayZigzag();
+//        System.out.println(detmaz.movesToMakeZigzag(new int[]{9,6,1,6,2}));
 
 
         /**
@@ -535,6 +535,9 @@ public class Main {
 //        LongestWellPerformingInterval lwpi = new LongestWellPerformingInterval();
 //        System.out.println(lwpi.longestWPI(new int[]{6,6,9,6,9,6,9}));
 
+
+//        YelpHackerRank yhr = new YelpHackerRank();
+//        yhr.main1();
 
     }
 
