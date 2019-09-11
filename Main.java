@@ -140,7 +140,19 @@ public class Main {
          * Maximum Contiguous SubArray Sum
          * */
 //        MaximumContiguousSubArraySum mcss = new MaximumContiguousSubArraySum();
-//        System.out.println(mcss.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+//        System.out.println(mcss.maxSubArray(new int[]{-1,-1,-1,-1}));
+
+
+        MaximumSubarraySumwithOneDeletion mswod = new MaximumSubarraySumwithOneDeletion();
+//        mswod.maximumSum(new int[]{1,-2,0,3});
+//        mswod.maximumSum(new int[]{1,-2,-2,3});
+//        mswod.maximumSum(new int[]{-1,-1,-1,-1});
+//        mswod.maximumSum(new int[]{-50});
+//        mswod.maximumSum(new int[]{1,-4,-5,-2,5,0,-1,2});
+//        mswod.maximumSum(new int[]{8,-1,6,-7,-4,5,-4,7,-6});
+//        mswod.maximumSum(new int[]{1,-4,-5,-2,5,0,-1,2});
+        mswod.maximumSum(new int[]{11,-10,-11,8,7,-6,9,4,11,6,5,0});
+
 
         /**
          * Leet Code #904 : Fruit Into Baskets
@@ -530,6 +542,22 @@ public class Main {
 
 
         /**
+         * Leet Code #1163: Last Substring in Lexicographical Order
+         * */
+//        LastSubstringinLexicographicalOrder lslo = new LastSubstringinLexicographicalOrder();
+//        System.out.println(lslo.lastSubstring("xbylisvborylklftlkcioajuxwdhahdgezvyjbgaznzayfwsaumeccpfwamfzmkinezzwobllyxktqeibfoupcpptncggrdqbkji"));
+//        System.out.println(lslo.lastSubstring("leetcode"));
+//        System.out.println(lslo.lastSubstring("abab"));
+
+        /**
+         * Leet Code #1162: As Far from Land as Possible
+         * */
+//         AsFarfromLandasPossible aflp = new AsFarfromLandasPossible();
+//         System.out.println(aflp.maxDistance(new int[][]{{1,0,1},{0,0,0},{1,0,1}}));
+//         System.out.println(aflp.maxDistance(new int[][]{{1,0,1},{0,0,0},{1,1,1}}));
+//         System.out.println(aflp.maxDistance(new int[][]{{1,0,0},{0,0,0},{0,0,0}}));
+//         System.out.println(aflp.maxDistance(new int[][]{{0,0,0},{0,0,0},{0,0,1}}));
+        /**
          * Leet Code #1124: Longest Well-Performing Interval
          * */
 //        LongestWellPerformingInterval lwpi = new LongestWellPerformingInterval();
@@ -538,6 +566,13 @@ public class Main {
 
 //        YelpHackerRank yhr = new YelpHackerRank();
 //        yhr.main1();
+
+
+//        NumSmallerByFrequency nsbf = new NumSmallerByFrequency();
+//        nsbf.numSmallerByFrequency(new String[]{"bbb","cc"}, new String[]{"a","aa","aaa","aaaa"});
+
+//        InvalidTransactions it = new InvalidTransactions();
+//        System.out.println(it.invalidTransactions(new String[]{"bob,241,725,barcelona","xnova,523,1770,barcelona","alex,516,617,barcelona","chalicefy,510,1400,bangkok","bob,875,256,amsterdam","xnova,685,1723,amsterdam","alex,748,888,barcelona","xnova,206,917,bangkok"}));
 
     }
 
