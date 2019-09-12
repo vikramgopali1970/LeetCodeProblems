@@ -143,7 +143,7 @@ public class Main {
 //        System.out.println(mcss.maxSubArray(new int[]{-1,-1,-1,-1}));
 
 
-        MaximumSubarraySumwithOneDeletion mswod = new MaximumSubarraySumwithOneDeletion();
+//        MaximumSubarraySumwithOneDeletion mswod = new MaximumSubarraySumwithOneDeletion();
 //        mswod.maximumSum(new int[]{1,-2,0,3});
 //        mswod.maximumSum(new int[]{1,-2,-2,3});
 //        mswod.maximumSum(new int[]{-1,-1,-1,-1});
@@ -151,7 +151,7 @@ public class Main {
 //        mswod.maximumSum(new int[]{1,-4,-5,-2,5,0,-1,2});
 //        mswod.maximumSum(new int[]{8,-1,6,-7,-4,5,-4,7,-6});
 //        mswod.maximumSum(new int[]{1,-4,-5,-2,5,0,-1,2});
-        mswod.maximumSum(new int[]{11,-10,-11,8,7,-6,9,4,11,6,5,0});
+//        mswod.maximumSum(new int[]{11,-10,-11,8,7,-6,9,4,11,6,5,0});
 
 
         /**
@@ -558,6 +558,13 @@ public class Main {
 //         System.out.println(aflp.maxDistance(new int[][]{{1,0,0},{0,0,0},{0,0,0}}));
 //         System.out.println(aflp.maxDistance(new int[][]{{0,0,0},{0,0,0},{0,0,1}}));
         /**
+         * Leet Code #767: Reorganize String
+         * */
+        ReorganizeString rs = new ReorganizeString();
+        System.out.println(rs.reorganizeString("aaabc"));
+
+
+        /**
          * Leet Code #1124: Longest Well-Performing Interval
          * */
 //        LongestWellPerformingInterval lwpi = new LongestWellPerformingInterval();
@@ -567,9 +574,13 @@ public class Main {
 //        YelpHackerRank yhr = new YelpHackerRank();
 //        yhr.main1();
 
+//        MakeArrayStrictlyIncreasing obj = new MakeArrayStrictlyIncreasing();
+//        obj.makeArrayIncreasing(new int[]{9,18,3,8,21,6,7,2,7,28,23,16,33,2,25,14,15}, new int[]{13,2,15,30,31,30,9,10,7,30,31,4,33,10,25,28,19,6,15,6,19,30,25,14,7,28,23,20,1,2,25,16});
 
 //        NumSmallerByFrequency nsbf = new NumSmallerByFrequency();
 //        nsbf.numSmallerByFrequency(new String[]{"bbb","cc"}, new String[]{"a","aa","aaa","aaaa"});
+
+
 
 //        InvalidTransactions it = new InvalidTransactions();
 //        System.out.println(it.invalidTransactions(new String[]{"bob,241,725,barcelona","xnova,523,1770,barcelona","alex,516,617,barcelona","chalicefy,510,1400,bangkok","bob,875,256,amsterdam","xnova,685,1723,amsterdam","alex,748,888,barcelona","xnova,206,917,bangkok"}));
