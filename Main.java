@@ -140,7 +140,7 @@ public class Main {
          * Maximum Contiguous SubArray Sum
          * */
 //        MaximumContiguousSubArraySum mcss = new MaximumContiguousSubArraySum();
-//        System.out.println(mcss.maxSubArray(new int[]{-1,-1,-1,-1}));
+//        System.out.println(mcss.maxSubArray(new int[]{11,-10,-11,8,7,-6,9,4,11,6,5,0}));
 
 
 //        MaximumSubarraySumwithOneDeletion mswod = new MaximumSubarraySumwithOneDeletion();
@@ -563,11 +563,26 @@ public class Main {
 
 
 
+//        MedianofTwoSortedArrays mtsa = new MedianofTwoSortedArrays();
+//        System.out.println(mtsa.findMedianSortedArrays(new int[]{5,7,8,9},new int[]{1,2,3,4,6}));
+
         /**
          * Leet Code #767: Reorganize String
          * */
 //        ReorganizeString rs = new ReorganizeString();
 //        System.out.println(rs.reorganizeString("aaabc"));
+
+
+        /**
+         * Leet Code #1202: Smallest String With Swaps
+         * */
+
+
+
+        /**
+         * Leet Code #138: Copy List with Random Pointer
+         * */
+
 
 
         /**
@@ -586,10 +601,65 @@ public class Main {
 //        NumSmallerByFrequency nsbf = new NumSmallerByFrequency();
 //        nsbf.numSmallerByFrequency(new String[]{"bbb","cc"}, new String[]{"a","aa","aaa","aaaa"});
 
+//        AmazonFullTime aft = new AmazonFullTime();
+////        ArrayList<Integer> m = new ArrayList<>();
+////        m.add(90);
+////        m.add(85);
+////        m.add(75);
+////        m.add(60);
+////        m.add(120);
+////        m.add(150);
+////        m.add(125);
+////        aft.movie(m,250);
+//        ArrayList<PairInt> m = new ArrayList<>();
+//        m.add(new PairInt(1,2));
+//        m.add(new PairInt(1,3));
+//        m.add(new PairInt(3,4));
+//        m.add(new PairInt(1,4));
+//        m.add(new PairInt(4,5));
+//        System.out.println(aft.criticalConnections(5,5,m));
+//        m.clear();
+//        System.out.println();
+//        m.add(new PairInt(1,2));
+//        m.add(new PairInt(2,3));
+//        m.add(new PairInt(3,4));
+//        m.add(new PairInt(4,5));
+//        m.add(new PairInt(6,3));
+//        System.out.println(aft.criticalConnections(6,5,m));
+//        m.clear();
+//        System.out.println();
+//        m.add(new PairInt(1,2));
+//        m.add(new PairInt(1,3));
+//        m.add(new PairInt(2,3));
+//        m.add(new PairInt(3,4));
+//        m.add(new PairInt(4,5));
+//        m.add(new PairInt(4,6));
+//        m.add(new PairInt(5,6));
+//        m.add(new PairInt(5,7));
+//        m.add(new PairInt(6,7));
+//        m.add(new PairInt(7,8));
+//        m.add(new PairInt(8,9));
+//        m.add(new PairInt(8,10));
+//        m.add(new PairInt(9,10));
+//        System.out.println(aft.criticalConnections(10,13,m));
 
+//        StreamOfCharacters soc =  new StreamOfCharacters();
+//        int[] res = soc.streamOfCharacters("backiuwcatbeforewerehpqojf", new String[]{"back", "before", "cat", "fore", "were", "for"});
+//        for(int i : res){
+//            System.out.print(i+" ");
+//        }
 
+//        Rahul r = new Rahul();
+//        r.maxLCS("abcdecdefg");
+//        r.maxLCS("abcdedeara");
+//        r.maxLCS("zzzxxxzzz");
 //        InvalidTransactions it = new InvalidTransactions();
 //        System.out.println(it.invalidTransactions(new String[]{"bob,241,725,barcelona","xnova,523,1770,barcelona","alex,516,617,barcelona","chalicefy,510,1400,bangkok","bob,875,256,amsterdam","xnova,685,1723,amsterdam","alex,748,888,barcelona","xnova,206,917,bangkok"}));
+
+//        DiceRollSimulation drs = new DiceRollSimulation();
+//        System.out.println(drs.dieSimulator(3,new int[]{1,1,1,2,2,3}));
+
+
 
     }
 

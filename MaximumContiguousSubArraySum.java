@@ -14,6 +14,7 @@ public class MaximumContiguousSubArraySum {
             if(sum[i+1]>maxSum){
                 maxSum = sum[i+1];
             }
+            System.out.print(sum[i+1]+" ");
         }
         return maxSum;
     }
