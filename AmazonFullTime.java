@@ -1,5 +1,7 @@
 package LeetProblem;
 
+import org.omg.PortableInterceptor.INACTIVE;
+
 import java.util.*;
 
 public class AmazonFullTime {
@@ -73,6 +75,19 @@ public class AmazonFullTime {
 
 //        aft.twoSumUnique(new int[]{1,1,2,45,46,46},47);
 //        aft.twoSumUnique(new int[]{1,5,1,5},6);
+
+//        aft.PathWithMaximumScore(new int[][]{{5,1},{4,5}});
+//        System.out.println(aft.PathWithMaximumScore(new int[][]{{5,7},{3,4},{9,8}}));
+//        List<Integer> inp = new ArrayList<Integer>();
+//        int[] arr = new int[]{90, 85, 75, 60, 120, 150, 125};
+//        for( int i : arr){
+//            inp.add(i);
+//        }
+//        aft.moviesOnFlight(inp,250);
+
+//        aft.SubstringsofsizeKwithKdistinctchars("abcabc",3);
+        aft.SubstringsofsizeKwithKdistinctchars("abacab",3);
+
     }
 
 
@@ -168,7 +183,7 @@ public class AmazonFullTime {
         }
     }
 
-    public ArrayList<Integer> movie(ArrayList<Integer> movieDuration, int flightDuration){
+    public ArrayList<Integer> moviesOnFlight(List<Integer> movieDuration, int flightDuration){
         ArrayList<Node> m = new ArrayList<Node>();
         for(int i=0;i<movieDuration.size();i++){
             m.add(new Node(movieDuration.get(i),i));
@@ -182,7 +197,7 @@ public class AmazonFullTime {
         int l = 0,h=m.size()-1;
         int i=-1,j=-1,maxx = Integer.MIN_VALUE;
         while(l<h){
-            System.out.println("here "+(m.get(l).val + m.get(h).val)+" "+(flightDuration-30));
+//            System.out.println("here "+(m.get(l).val + m.get(h).val)+" "+(flightDuration-30));
             if((m.get(l).val + m.get(h).val) <= (flightDuration-30)){
                 if(maxx < (m.get(l).val + m.get(h).val)){
                     maxx = (m.get(l).val + m.get(h).val);
@@ -484,6 +499,83 @@ public class AmazonFullTime {
                 temp.add(Math.min(nums[i],diff));
                 temp.add(Math.max(nums[i],diff));
                 res.add(temp);
+            }
+        }
+        System.out.println(res+" "+res.size());
+    }
+
+    public class NodeX{
+        int x,y,val;
+        public NodeX(int x, int y, int val){
+            this.x = x;
+            this.y = y;
+            this.val = val;
+        }
+    }
+
+    public int PathWithMaximumScore(int[][] A){
+        int[] dx = new int[]{0,1};
+        int[] dy = new int[]{1,0};
+        int[][] visited = new int[A.length][A[0].length];
+        PriorityQueue<NodeX> pq = new PriorityQueue<NodeX>(new Comparator<NodeX>(){
+            public int compare(NodeX n1, NodeX n2){
+                return Integer.compare(n2.val,n1.val);
+            }
+        });
+        int max = Integer.MAX_VALUE;
+        pq.offer(new NodeX(0,0,A[0][0]));
+        while(!pq.isEmpty()){
+            NodeX node = pq.poll();
+            max = Math.min(max,node.val);
+            if(node.x==A.length-1 && node.y==A[0].length-1){
+                return max;
+            }
+            for(int i=0;i<2;i++){
+                int x=node.x+dx[i];
+                int y=node.y+dy[i];
+                if(x>=0 && x<A.length && y>=0 && y<A[0].length && visited[x][y] !=1){
+                    visited[x][y] =1;
+                    int val = A[x][y];
+                    pq.offer(new NodeX(x,y,val));
+                }
+            }
+        }
+        return -1;
+    }
+
+    public void SubstringsofsizeKwithKdistinctchars(String str, int k){
+        int[] f = new int[26];
+        int unique=0;
+        StringBuilder sb = new StringBuilder();
+        HashSet<String> res = new HashSet<String>();
+        for(int i=0;i<k;i++){
+            char c = str.charAt(i);
+            sb.append(c);
+            if(f[c-'a'] == 0){
+                unique++;
+            }
+            f[c-'a']++;
+        }
+//        System.out.println(unique+" "+sb);
+        int i=0,j=k-1;
+        while(j<str.length()){
+//            System.out.println(unique+" "+sb);
+            if(unique==k){
+                res.add(sb.toString());
+            }
+            sb.delete(0,1);
+            f[str.charAt(i)-'a']--;
+            if(f[str.charAt(i)-'a'] == 0){
+                unique--;
+            }
+            i++;
+            j++;
+            if(j < str.length()){
+                if(f[str.charAt(j)-'a'] == 0){
+                    unique++;
+                }
+                f[str.charAt(j)-'a']++;
+                sb.append(str.charAt(j));
             }
         }
         System.out.println(res+" "+res.size());
