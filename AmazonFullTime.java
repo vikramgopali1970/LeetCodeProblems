@@ -45,6 +45,34 @@ public class AmazonFullTime {
 
 //        aft.PairSum(new int[]{1, 10, 25, 35, 60},90);
 //        aft.PairSum(new int[]{20, 50, 40, 25, 30, 10},90);
+
+
+//        String[] names = new String[]{"David","Emma"};
+//        String[][] songs = new String[][]{{"song1", "song2", "song3", "song4", "song8"},{"song5", "song6", "song7"}};
+//        String[][] songs = new String[][]{{"song1", "song2"},{"song3", "song4"}};
+//        String[] genres = new String[]{"Rock","Dubstep","Techno","Pop","Jazz"};
+//        String[] genres = new String[]{};
+//        String[][] gsongs = new String[][]{{"song1", "song3"},{"song7"},{"song2", "song4"},{"song5", "song6"},{"song8", "song9"}};
+//        Map<String,List<String>> userSongs = new HashMap<>();
+//        for(int i=0;i<names.length;i++){
+//            List<String> sarr = new ArrayList<>();
+//            for(int j=0;j<songs[i].length;j++){
+//                sarr.add(songs[i][j]);
+//            }
+//            userSongs.put(names[i],sarr);
+//        }
+//        Map<String,List<String>> songGenres = new HashMap<>();
+//        for(int i=0;i<genres.length;i++){
+//            List<String> sarr = new ArrayList<>();
+//            for(int j=0;j<gsongs[i].length;j++){
+//                sarr.add(gsongs[i][j]);
+//            }
+//            songGenres.put(genres[i],sarr);
+//        }
+//        aft.favouriteGenre(userSongs,songGenres);
+
+//        aft.twoSumUnique(new int[]{1,1,2,45,46,46},47);
+//        aft.twoSumUnique(new int[]{1,5,1,5},6);
     }
 
 
@@ -370,6 +398,96 @@ public class AmazonFullTime {
         }
     }
 
+    public void favouriteGenre(Map<String,List<String>> userSongs, Map<String,List<String>> songGenres){
+        HashMap<String,String> songToGenre = new HashMap<String,String>();
+        for(String genre : songGenres.keySet()){
+            for(String song : songGenres.get(genre)){
+                songToGenre.put(song,genre);
+            }
+        }
+        HashMap<String,List<String>> res = new HashMap<String,List<String>>();
+        HashMap<String,HashMap<String,Integer>> temp = new HashMap<String,HashMap<String,Integer>>();
+        for(String name : userSongs.keySet()){
+            HashMap<String,Integer> freq = new HashMap<>();
+            for(String song : userSongs.get(name)){
+                if(songToGenre.containsKey(song)){
+                    int count = freq.getOrDefault(songToGenre.get(song),0);
+                    freq.put(songToGenre.get(song),count+1);
+                }
+            }
+            temp.put(name,freq);
+        }
+        for(String name : temp.keySet()){
+            int max = Integer.MIN_VALUE;
+            for(String genre : temp.get(name).keySet()){
+                max = Math.max(max,temp.get(name).get(genre));
+            }
+            List<String> resarr = new ArrayList<String>();
+            for(String genre : temp.get(name).keySet()){
+                if(temp.get(name).get(genre) == max){
+                    resarr.add(genre);
+                }
+            }
+            res.put(name,resarr);
+        }
+        System.out.println(res);
+    }
+
+
+    public void twoSumUnique(int[] nums, int target){
+        /*
+        * Method 1 (sort-O(nlogn))
+        * */
+        Arrays.sort(nums);
+        Set<List<Integer>> res = new HashSet<List<Integer>>();
+        int s=0,e=nums.length-1;
+        while(s < e){
+            if(nums[s]+nums[e] == target){
+                List<Integer> temp = new ArrayList<>();
+                temp.add(nums[s]);
+                temp.add(nums[e]);
+                res.add(temp);
+                s++;
+                e--;
+            }else if(nums[s]+nums[e] < target){
+                s++;
+            }else{
+                e--;
+            }
+        }
+        System.out.println(res+" "+res.size());
+
+
+        /*
+         * Method 2 (HashMap-O(n))
+         * */
+        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+        for(int i=0;i<nums.length;i++){
+            int count = map.getOrDefault(nums[i],0);
+            map.put(nums[i],count+1);
+        }
+        res = new HashSet<List<Integer>>();
+        for(int i=0;i<nums.length;i++){
+            int diff = target-nums[i];
+            if(map.containsKey(diff)){
+                int count = map.get(diff);
+                count--;
+                if(count == 0){
+                    map.remove(diff);
+                }
+                count = map.get(nums[i]);
+                count--;
+                if(count == 0){
+                    map.remove(nums[i]);
+                }
+                List<Integer> temp = new ArrayList<>();
+                temp.add(Math.min(nums[i],diff));
+                temp.add(Math.max(nums[i],diff));
+                res.add(temp);
+            }
+        }
+        System.out.println(res+" "+res.size());
+    }
 
 }
 
