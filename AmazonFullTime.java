@@ -93,13 +93,13 @@ public class AmazonFullTime {
 
     public PairInt locationOfTargetValue(int rowCount, int columnCount, List<List<Integer>> matrix, int targetValue){
         int row = 0,col = columnCount-1;
-        while(row >= 0 && col >= 0){
+        while(row < rowCount && col >= 0){
             if(matrix.get(row).get(col) == targetValue){
                 return new PairInt(row,col);
             }else if(matrix.get(row).get(col) > targetValue){
-                row--;
+                row++;
             }else{
-                col++;
+                col--;
             }
         }
         return new PairInt(-1,-1);
